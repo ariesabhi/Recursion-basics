@@ -8,7 +8,7 @@ int add(int n)
 		return 0;
 	}
 	else{
-		return add(n/10);
+		return (n%10 + add(n/10));
 	
 	}
 	
